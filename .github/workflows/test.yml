@@ -1,0 +1,10 @@
+name: Simple Test Action
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "سلام! کد بدون نیاز به API با موفقیت اجرا شد."
